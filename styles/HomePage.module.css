@@ -1,0 +1,35 @@
+.card {
+  text-align: left;
+  color: inherit;
+  height: fit-content;
+  text-decoration: none;
+
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  box-shadow: 0.01rem 0.1rem 0.5rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+.description {
+  float: right;
+  padding-right: 2rem;
+}
+.image {
+  float: left;
+  border-top-left-radius: 10px;
+}
+.heading {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.price {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: grey;
+}
